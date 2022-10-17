@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header,
+form {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input,
+button {
+    padding: 0.4em;
+    border-radius: 7px;
+    border: 1px solid #202124;
+    background: rgba(32, 33, 36, 0.9);
+}
+
+.my-btn:hover {
+    background: #202124;
+}
+
+.btn {
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+.btn:hover {
+    transition: 0.5s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    width: 30%;
+}
+
+.task {
+    background: #202124;
+    margin: 0.5em;
+    border-radius: 7px;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task li {
+    flex: 1;
+}
+
+.task-item {
+    padding: 0.5rem;
+}
+
+.fa-check,
+.fa-delete-left {
+    pointer-events: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.disappear {
+    transform: translateY(8rem) rotateZ(-20deg);
+    opacity: 0;
+}
+
+.form-select {
+    width: 10rem;
+    cursor: pointer;
+    margin: 1rem;
+    border: 1px solid #202124;
+    background-color: rgba(32, 33, 36, .0001);
+    transition: 0.5s;
+}
+
+.form-select:hover {
+    background-color: rgb(32, 33, 36);
+    color: ghostwhite;
+}
