@@ -33,6 +33,7 @@ function editTask(e) {
     const task = item.parentElement.parentElement
 
     //Removing task
+    //!не бажано
     if (clicked === "delete-button") {
         task.classList.add('disappear');
         //deleting this specific task from localstorage
