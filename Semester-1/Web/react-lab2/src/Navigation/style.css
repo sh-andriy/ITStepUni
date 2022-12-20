@@ -1,0 +1,43 @@
+
+.main-nav-container {
+    width: 100%;
+    background-color: #333333;
+}
+
+
+.navigation-container {
+    margin: auto;
+    width: 70%;
+    padding: 30px 0px 30px 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container-info {
+    display: flex;
+    flex-direction: row;
+    color: #C0BAB6;
+}
+
+
+#vertical-hr {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.nav-title {
+    color: #C0BAB6;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+.nav-subtitle {
+    color: #C0BAB6;
+    font-size: 20px;
+}

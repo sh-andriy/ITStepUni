@@ -1,0 +1,88 @@
+
+.Nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: fixed;
+    width: 330px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    height: 100vh;
+    padding: 50px;
+    margin: 0;
+    box-sizing: border-box;
+    border-right: 1px solid rgb(214, 214, 214);
+}
+
+
+.name {
+    color: #333;
+    font-size: 36px;
+}
+
+
+.nav-hr {
+    width: 90px;
+    border: 0;
+    border-top: 1px solid #aaa;
+    margin: 25px 0px 25px 0px;
+}
+
+
+.Text {
+    color: #aaa;
+    line-height: 145%;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+.button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Lato, sans-serif;
+    color: #aaa;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.button:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+
+.Text2 {
+    color: #aaa;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: Lato, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    opacity: 30%;
+}
+
+
+.icon:hover {
+    opacity: 70%;
+    transition: 0.3s;
+    cursor: pointer;
+}

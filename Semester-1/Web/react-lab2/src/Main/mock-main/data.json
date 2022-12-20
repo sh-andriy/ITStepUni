@@ -1,0 +1,30 @@
+[
+  {
+    "image": "./imgs/1.jpg",
+    "title": "Headline Text",
+    "textmain": "Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper. Vestibulum adipiscing erat sit amet justo luctus molestie",
+    "text": "Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.",
+    "link": "Read More »"
+  },
+  {
+    "image": "./imgs/1.jpg",
+    "title": "Headline Text",
+    "textmain": "Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper. Vestibulum adipiscing erat sit amet justo luctus molestie",
+    "text": "Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.",
+    "link": "Read More »"
+  },
+  {
+    "image": "./imgs/1.jpg",
+    "title": "Headline Text",
+    "textmain": "Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper. Vestibulum adipiscing erat sit amet justo luctus molestie",
+    "text": "Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.",
+    "link": "Read More »"
+  },
+  {
+    "image": "./imgs/1.jpg",
+    "title": "Headline Text",
+    "textmain": "Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper. Vestibulum adipiscing erat sit amet justo luctus molestie",
+    "text": "Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.",
+    "link": "Read More »"
+  }
+]

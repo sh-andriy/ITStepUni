@@ -124,7 +124,7 @@ function getTasks() {
     });
 }
 
-//NOW our added tasks saved to local storage and if you delete one and reload page you will get it back
+//NOW our added LAB-11 saved to local storage and if you delete one and reload page you will get it back
 
 //SO im changing it here
 function removeLocalTasks(task) {

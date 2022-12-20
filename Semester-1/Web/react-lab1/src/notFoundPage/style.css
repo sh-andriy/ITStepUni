@@ -1,0 +1,26 @@
+
+
+.not-found-container {
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+#not-found {
+    font-size: 25px;
+    margin: 30px 0px 50px 30px;
+}
+
+
+#not-found-title {
+    font-size: 50px;
+    margin: 20px 0px 20px 30px;
+}
+
+
+#not-found-text {
+    margin: 00px 0px 20px 30px;
+}

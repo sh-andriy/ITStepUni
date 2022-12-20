@@ -1,0 +1,52 @@
+
+.SelectedTheme, .SelectedDate {
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+    width: fit-content;
+    margin-top: 40px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    text-transform: uppercase;
+    border: 1px solid rgb(214, 214, 214);
+    font-weight: 500;
+    color: #333;
+}
+
+
+.container-theme-date {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.all-posts-button {
+    background-color: #888888;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    margin-bottom: 40px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.all-posts-button:hover {
+    background-color: #111111;
+    transition: 0.3s;
+}
+
+
+.selected-tag {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.75s;
+}
+
+
+

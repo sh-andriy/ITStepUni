@@ -1,0 +1,118 @@
+.main-footer-container {
+    width: 70%;
+    background-color: #232323;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.footer {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    box-sizing: border-box;
+}
+
+.container-footer {
+    margin: 30px 0px 30px 0px;
+}
+
+#footer-link {
+    color: #FF9900;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #333333;
+}
+
+.title-footer {
+    color: #919191;
+    font-weight: bolder;
+}
+
+#title-hr {
+    border: 0;
+    border-top: 1px solid #919191;
+    margin-bottom: 30px;
+}
+
+.footer-gallery {
+    display: grid;
+    height: 250px;
+    width: 250px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.footer-gallery div {
+    background-color: #333333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-label {
+    color: #919191;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.contact-input, .contact-input-msg {
+    background-color: #333333;
+    border: 1px solid #4e4e4e;
+    border-radius: 3px;
+}
+
+.contact-input-msg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 120px;
+}
+
+.submit-button, .reset-button {
+    background-color: #FF9900;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    margin-right: 10px;
+}
+
+.reset-button {
+    background-color: #A8A8A8;
+}
+
+.footer > hr {
+    border: 0;
+    border-top: 1px solid #333333;
+}
+
+.footer-info {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    color: #919191;
+    font-size: 13px;
+}
+
+.footer-info div {
+    margin: 15px 0px 15px 0px;
+}
+
+.some-info {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #333333;
+    color: #919191;
+}
+
+#footer-time {
+    color: #FF9900;
+    margin-left: 10px;
+}

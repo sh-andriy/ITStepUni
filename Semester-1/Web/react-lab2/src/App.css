@@ -1,0 +1,11 @@
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+#app-hr {
+  width: 70%;
+  border: 0;
+  border-top: 1px dotted rgb(202, 202, 202);
+}
