@@ -25,3 +25,19 @@ function updateCountdownTime() {
 }
 
 setInterval(updateCountdownTime, 1000);
+
+
+//switch buttons
+
+const divHide = document.querySelector('.div-hide');
+const btnHide = document.getElementById('btn-hide');
+const btnShow = document.getElementById('btn-show');
+
+btnHide.addEventListener('click', () => {
+    divHide.style.display = 'none';
+})
+
+btnShow.addEventListener('click', () => {
+    divHide.style.display = 'flex'
+})
+

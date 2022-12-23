@@ -9,30 +9,37 @@
     <title>NewYear Countdown</title>
 </head>
 <body id="bg-animated">
-  <h1 class="text-light">New Year Countdown</h1>
+  <h1 class="text-light ">New Year Countdown</h1>
 
-<div id="countdown" class="countdown text-light">
-  <div class="time">
-    <h2 id="days"></h2>
-    <small>Days</small>
+
+  <div id="countdown" class="countdown text-light div-hide">
+    <div class="time">
+      <h2 id="days"></h2>
+      <small>Days</small>
+    </div>
+
+    <div class="time">
+      <h2 id="hours"></h2>
+      <small>Hours</small>
+    </div>
+
+    <div class="time">
+      <h2 id="minutes"></h2>
+      <small>Minutes</small>
+    </div>
+
+    <div class="time">
+      <h2 id="seconds"></h2>
+      <small>Seconds</small>
+    </div>
   </div>
 
-  <div class="time">
-    <h2 id="hours"></h2>
-    <small>Hours</small>
-  </div>
-
-  <div class="time">
-    <h2 id="minutes"></h2>
-    <small>Minutes</small>
-  </div>
-
-  <div class="time">
-    <h2 id="seconds"></h2>
-    <small>Seconds</small>
-  </div>
-</div>
-
+  <footer>
+    <div class="row gap-5">
+      <div class="btn btn-outline-light button col " id="btn-show">Show)</div>
+      <div class="btn btn-outline-light button col " id="btn-hide">Hide)</div>
+    </div>
+  </footer>
 
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
