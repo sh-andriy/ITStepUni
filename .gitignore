@@ -77,3 +77,21 @@ $RECYCLE.BIN/
 
 # Custom
 Mix/
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+.idea/*
