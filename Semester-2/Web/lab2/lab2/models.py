@@ -34,3 +34,14 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     class Meta:
         db_table = 'auth_user'
+
+
+class Link(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    original_link = models.URLField()
+    short_link = models.CharField(max_length=15, unique=True)
+    expired_at = models.DateTimeField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        db_table = 'links'
