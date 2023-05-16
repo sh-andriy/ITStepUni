@@ -19,8 +19,8 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('sessions/', views.sessions, name='sessions'),
-    path('theaters/', views.theaters, name='theaters'),
-    path('theaters/<int:theater_id>/', views.theater, name='theater'),
-    path('users/', views.users, name='users'),
+    path('sessions/', views.get_sessions, name='sessions'),
+    path('theaters/', views.get_theaters, name='theaters'),
+    path('theaters/<int:theater_id>/', views.get_theater, name='theater'),
+    path('users/', views.get_users, name='users'),
 ]

@@ -10,7 +10,10 @@ class Session(models.Model):
 
 class Theater(models.Model):
     name = models.CharField(max_length=255)
-    address = models.CharField(max_length=255)
+    address_city = models.CharField(max_length=255)
+    address_zipcode = models.CharField(max_length=255)
+    latitude = models.FloatField()
+    longitude = models.FloatField()
 
 
 class User(models.Model):
@@ -18,5 +21,3 @@ class User(models.Model):
     email = models.EmailField(max_length=255)
     password = models.CharField(max_length=255)
     sessions_booked = models.ManyToManyField(Session)
-
-    

@@ -1,8 +1,9 @@
+from django.forms import model_to_dict
 from django.http import JsonResponse
 from .models import Session, Theater, User
 
 
-def sessions(request):
+def get_sessions(request):
     user_id = request.GET.get('userId')
     # filter sessions by user id
     sessions = Session.objects.filter(user_id=user_id)
@@ -11,7 +12,7 @@ def sessions(request):
     return JsonResponse(data)
 
 
-def theaters(request):
+def get_theaters(request):
     city = request.GET.get('address_city')
     zipcode = request.GET.get('address_zipcode')
     latitude = request.GET.get('latitude')
@@ -23,19 +24,19 @@ def theaters(request):
     return JsonResponse(data)
 
 
-def theater(request, theater_id):
+def get_theater(request, theater_id):
     # retrieve theater by id
     theater = Theater.objects.get(id=theater_id)
     # serialize theater and return as JSON response
-    data = {'theater': theater}
+    data = {'theater': model_to_dict(theater)}
     return JsonResponse(data)
 
 
-def users(request):
+def get_users(request):
     name = request.GET.get('name')
     email = request.GET.get('email')
     # filter users by name and email
-    users = User.objects.filter(name=name, email=email)
+    users = User.objects.filter(username=name, email=email)
     # serialize users and return as JSON response
     data = {'users': list(users.values())}
     return JsonResponse(data)
