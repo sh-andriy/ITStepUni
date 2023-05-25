@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="active-users">
+  <h2>Active Users</h2>
+  <p>Online Users:</p>
+  <ul>
+    {% for user in online_users %}
+    <li>{{ user }}</li>
+    {% endfor %}
+  </ul>
+  <p>Offline Users:</p>
+  <ul>
+    {% for user in offline_users %}
+    <li>{{ user }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

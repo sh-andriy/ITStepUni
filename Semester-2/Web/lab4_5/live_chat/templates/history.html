@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block content %}
+<div class="message-box">
+  <h2>Chat Room: {{ code }}</h2>
+  <div class="messages">
+    {% for msg in chat_messages %}
+    <div class="text">
+      <span>
+        <strong>{{ msg.name }}</strong>: {{ msg.message }}
+      </span>
+      <span class="muted">
+        {{ msg.timestamp.strftime("%Y-%m-%d %H:%M:%S") }}
+      </span>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
